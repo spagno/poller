@@ -1,4 +1,5 @@
 FROM alpine:latest
+USER 1001
 ADD html/ html/
 ADD polls/ polls/
 ADD poller /
